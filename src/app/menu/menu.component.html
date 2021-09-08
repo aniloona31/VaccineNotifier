@@ -1,0 +1,81 @@
+<div class="menubar1">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div role="banner" class="navbar-brand">
+            <img _ngcontent-deu-c72 src="assets/images/emblem-gov.svg" width="40" height="40">
+            <span>
+                <a href="https://www.india.gov.in/" target="_blank" class="accessibility-plugin-ac">Ministry Of Health
+                    And Family Welfare</a>
+            </span>
+        </div>
+
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Verify Certificate<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">|</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Dashboard</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">|</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">skip to main content</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+</div>
+
+<div class="menubar2">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <span class="navbar-brand">
+            <img src="/assets/images/covid19logo.jpg" height="70px" width="220px">
+        </span>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Vaccination Services
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Register Members</a>
+                        <a class="dropdown-item" href="#">Book Slot</a>
+                        <a class="dropdown-item" href="#">Search Vaccination Centre</a>
+                        <a [routerLink] = "['/registration']" class="dropdown-item" href="#">Download Certificate</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Platforms
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Cowin International</a>
+                        <a class="dropdown-item" href="#">Vaccinator</a>
+                        
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Support
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">FAQ'S</a>
+                        <a class="dropdown-item" href="#">Certificate Corrections</a>
+                        <a href="#" class="dropdown-item">Contact Us</a>
+                    </div>
+                </li>
+            </ul>
+            <button type="button" class="btn btn-outline-secondary" (click)="registerationForm()">Register/Sign in</button>
+        </div>
+    </nav>
+</div>
